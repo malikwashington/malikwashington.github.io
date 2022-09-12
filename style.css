@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  background: url('https://media.istockphoto.com/photos/east-harlem-from-above-picture-id524907214?k=20&m=524907214&s=612x612&w=0&h=b0nlZd1e5vC8LRkOUz7V_rYrf0hNiP_hlpXgkB0UO3I=');
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 100px;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-top: 0;
+}
+.title {
+  text-align: center;
+}
+img {
+  margin: 100px 0px 140px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  opacity: 0;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 750px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.current {
+  text-decoration: none;
+  color: aquamarine;
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+}  
